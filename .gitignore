@@ -1,0 +1,36 @@
+
+# Backend
+node_modules/
+dist/
+build/
+.env
+.env.*
+!.env.example
+.venv/
+coverage/
+
+# Android / Gradle
+.gradle/
+**/.gradle/
+**/build/
+local.properties
+**/local.properties
+gradle.properties
+**/gradle.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Firebase credentials and configuration
+**/firebase-service-account.json
+**/google-services.json
+**/firebase_config.xml
+
+# Signing keys
+*.jks
+*.keystore
+key.properties
+
+# Logs
+*.log
